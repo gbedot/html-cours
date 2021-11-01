@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titre de la page -->
+    <title>Cours HTML</title>
+    <!--icone de l'onglet -->
+    <link rel="shortcut icon" href="HTML5_logo.png">
+</head>
+<body>
+    <header>
+        <h1><span>&#8486; </span>Exemple de texte - Titre H1</h1>
+            <p>Texte basic, <em>texte en italique, </em>
+                <strong>texte en gras.</strong>
+                <span>L'élément en span ne revient pas à la ligne</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis ad obcaecati tempore et cum a, eaque voluptates modi tenetur dolor minima voluptatum harum. Minima maiores omnis voluptatem mollitia quos, quas illum cumque, reiciendis reprehenderit culpa magni accusantium esse quae voluptate maxime odit quod in consequatur similique totam tempore. Nam.</p>
+    </header>
+    <!--Diviser sa page en section -->
+    <section>
+        <!--Sous diviser les sections -->
+        <div>
+            <!--6 type de titre 1 seul H1-->
+            <h2>Exemple de photos - Titre H2</h2>
+            <img src="naruto.jpg" height="200" alt="image-naruto">
+        </div>
+        <div>
+            <h3>Exemple de liste - Titre H3</h3>
+            <!--listes à puces-->
+            <ul>
+                <li>UL = noordered list</li>
+                <li>UL = noordered list</li>
+                <li>UL = noordered list</li>
+            </ul>
+            <!--listes numérotées-->
+            <ol>
+                <li>OL = ordered list</li>
+                <li>OL = ordered list</li>
+                <li>OL = ordered list</li>
+            </ol>
+        </div>
+        <div>            
+            <h4>Exemple de tableau - Titre H4</h4>
+            <table border="1" width="50%">
+            <!-- Légendes-->
+            <caption>Population de Naruto</caption>
+            <!-- Entete-->
+            <thead></thead>
+                <tr>
+                    <th>Pays</th>
+                    <th>Population</th>
+                </tr>
+            </thead>   
+            <!-- Corps tableau-->
+            <tbody>
+                <tr>
+                    <td>Konoha</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Suna</td>
+                    <td>400</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div>
+            <h5>Exemple de lien - Titre H5</h5>
+            <!-- Site interessant pour aider à la génération de html-->
+            <a href="https://htmlcheatsheet.com/" 
+            target="_blank">HTML Cheat sheet</a>
+            <br>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/"
+            target="_blank">Icones en HTML</a>
+        </div>
+        <div>
+            <h6>Exemple de vidéo - Titre H6</h6>
+            <video src="video.mp4" height="200" autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+
+    <!--Formulaires-->
+    <section>
+        <h2>Formulaires</h2>
+        <form action="/action.php" method="post">
+        <label for="name">Nom</label>
+        <input type="text" placeholder="Entrer votre nom" id="name">
+        <br>
+        <label for="age">Nom</label>
+        <input type="number" min="0" max=100 value ="18" placeholder="Entrer votre age" id="age">
+        </form>
+    </section>
+</body>
+</html>
